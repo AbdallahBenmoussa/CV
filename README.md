@@ -35,7 +35,7 @@ No build tools or installs needed. Just open it in a browser:
 
 ## ✨ Features
 
-- 3 collapsible rows — Who Am I, Projects, Links, Contact
+- 4 collapsible rows — Who Am I, Projects, Links, Contact
 - CRT scanline + flicker animation
 - Animated boot sequence on load
 - Fully responsive for mobile
