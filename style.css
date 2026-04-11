@@ -39,7 +39,6 @@ body::before {
 @keyframes typeIn   { from { opacity: 0; transform: translateY(-4px); } }
 @keyframes bootFade { from { opacity: 0; } }
 
-/* ── Header ── */
 .terminal-header {
   padding: 1.5rem 2rem 1rem;
   border-bottom: 1px solid var(--border);
@@ -62,7 +61,7 @@ body::before {
 }
 .term-status { font-size: .65rem; color: var(--green-dim); }
 
-/* ── Boot Log ── */
+
 .boot-log {
   padding: 1rem 2rem;
   font-size: .7rem;
@@ -73,7 +72,7 @@ body::before {
 }
 .boot-log span { color: var(--green-dim); }
 
-/* ── Rows ── */
+
 .rows-container { padding: 1.5rem 2rem; }
 
 .cv-row {
