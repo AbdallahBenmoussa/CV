@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV — Terminal</title>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="terminal-header">
+  <div class="term-dots">
+    <div class="dot r"></div>
+    <div class="dot y"></div>
+    <div class="dot g"></div>
+  </div>
+  <div class="term-title">PORTFOLIO_OS v2.0.26 — TERMINAL</div>
+  <div class="term-status">● ONLINE</div>
+</header>
+
+<div class="boot-log">
+  <div>[ <span>0.001s</span> ] Initializing portfolio kernel...</div>
+  <div>[ <span>0.042s</span> ] Loading identity modules... <span>OK</span></div>
+  <div>[ <span>0.109s</span> ] Mounting project filesystem... <span>OK</span></div>
+  <div>[ <span>0.187s</span> ] Establishing network links... <span>OK</span></div>
+  <div>[ <span>0.201s</span> ] All systems operational. Ready.<span class="cursor"></span></div>
+</div>
+
+<div class="rows-container">
+
+  
+  <div class="cv-row active" id="row-1">
+    <div class="row-header" onclick="toggleRow('row-1')">
+      <div class="row-number">01</div>
+      <div class="row-label">IDENTITY.exe</div>
+      <div class="row-tag">WHO AM I</div>
+      <div class="toggle-icon">▼</div>
+    </div>
+    <div class="row-progress"></div>
+    <div class="row-body">
+      <div class="row-content">
+        <div class="prompt-line">cat identity.json</div>
+        <div class="who-grid">
+          <span class="who-key">name:</span>
+          <span class="who-val highlight">Benmoussa Abdallah</span>
+          <span class="who-key">role:</span>
+          <span class="who-val">Mobile developer</span>
+          <span class="who-key">location:</span>
+          <span class="who-val">Chlef, Algeria</span>
+          <span class="who-key">status:</span>
+          <span class="who-val">Open to opportunities</span>
+          <span class="who-key">experience:</span>
+          <span class="who-val">freshman</span>
+        </div>
+        <div class="bio-block">
+            Mobile Developer & UI Enthusiast with a deep background in JavaFX and Flutter. Experienced in the full software development lifecycle, from designing Use Case Diagrams to implementing modular, style-separated code. Beyond standard development, I leverage AI-driven tools to generate assets and craft unique, user-centric digital experiences.        </div>
+        <div class="skills-row">
+          <span class="skill-tag">Flutter</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">JavaFX</span>
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">HTML/CSS</span>
+          <span class="skill-tag">Figma</span>
+          <span class="skill-tag">Git</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+  <div class="cv-row" id="row-2">
+    <div class="row-header" onclick="toggleRow('row-2')">
+      <div class="row-number">02</div>
+      <div class="row-label">PROJECTS.db</div>
+      <div class="row-tag">WORK</div>
+      <div class="toggle-icon">▼</div>
+    </div>
+    <div class="row-progress"></div>
+    <div class="row-body">
+      <div class="row-content">
+        <div class="prompt-line">ls -la ~/projects/</div>
+        <div class="projects-list">
+
+          <div class="project-card" data-id="PROJECT_01">
+            <div class="project-name">PORTFOLIO TERMINAL</div>
+            <div class="project-desc">
+              This very CV website — a retro terminal-style portfolio built
+              from scratch with vanilla HTML, CSS animations, and JavaScript.
+            </div>
+            <div class="project-stack">
+              <span class="stack-tag">HTML5</span>
+              <span class="stack-tag">CSS3</span>
+              <span class="stack-tag">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="project-card" data-id="PROJECT_02">
+            <div class="project-name"> Gestion des Congés et Abandon Académique</div>
+            <div class="project-desc">
+             Ce projet est une application Java permettant de gérer les demandes de congés académiques et abandons d'études pour les étudiants. Il offre un panneau d'administration complet pour le personnel administratif afin de traiter les demandes, envoyer des réponses par email, et gérer les comptes utilisateurs.
+            </div>
+            <div class="project-stack">
+              <span class="stack-tag">Java</span>
+              <span class="stack-tag">JavaFX</span>
+              <span class="stack-tag">MySQL</span>
+              <span class="stack-tag">SMTP</span>
+            </div>
+          </div>
+
+          <div class="project-card" data-id="PROJECT_03">
+            <div class="project-name">CS Average Calculator</div>
+            <div class="project-desc">
+             A modern, cross-platform mobile application built with Flutter designed to help Computer Science students at the University of Chlef (UNIV DE CHLEF) calculate their academic averages quickly and accurately.
+            </div>
+            <div class="project-stack">
+              <span class="stack-tag">Flutter</span>
+              <span class="stack-tag">Git</span>
+              <span class="stack-tag">github</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="cv-row" id="row-3">
+    <div class="row-header" onclick="toggleRow('row-3')">
+      <div class="row-number">03</div>
+      <div class="row-label">NETWORK.cfg</div>
+      <div class="row-tag">LINKS</div>
+      <div class="toggle-icon">▼</div>
+    </div>
+    <div class="row-progress"></div>
+    <div class="row-body">
+      <div class="row-content">
+        <div class="prompt-line">cat network_config.txt</div>
+        <div class="links-list">
+
+          <a class="link-row" href="https://github.com/AbdallahBenmoussa" target="_blank">
+            <div class="link-icon">GH</div>
+            <div class="link-info">
+              <div class="link-name">GITHUB</div>
+              <div class="link-url">github.com/AbdallahBenmoussa</div>
+            </div>
+            <div class="link-arrow">→</div>
+          </a>
+
+          <a class="link-row" href="https://linkedin.com/in/abdallah-benmoussa" target="_blank">
+            <div class="link-icon">IN</div>
+            <div class="link-info">
+              <div class="link-name">LINKEDIN</div>
+              <div class="link-url">linkedin.com/in/abdallah-benmoussa</div>
+            </div>
+            <div class="link-arrow">→</div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer class="terminal-footer">
+  <span>PORTFOLIO_OS v2.0.26</span>
+  <span>BUILD 20260411</span>
+  <span>ALG/CHL — <span style="color:var(--green)">ONLINE</span></span>
+</footer>
+
+<script>
+  function toggleRow(id) {
+    const row = document.getElementById(id);
+    const isActive = row.classList.contains('active');
+    row.classList.toggle('active', !isActive);
+  }
+
+</script>
+</body>
+</html>
