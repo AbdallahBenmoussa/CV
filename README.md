@@ -47,5 +47,4 @@ No build tools or installs needed. Just open it in a browser:
 
 Feel free to reach out via the contact form on the site, or connect on:
 
-- GitHub: [github.com/yourusername](https://github.com/yourusername)
-- LinkedIn: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
+- LinkedIn: [linkedin.com/in/yourusername](https://linkedin.com/in/abdallah-benmoussa)
